@@ -1,0 +1,26 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Ston.ventures Landing page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theparkinator56/landing-page.git"
+  },
+  "keywords": [
+    "Eric"
+  ],
+  "author": "Parker Call",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theparkinator56/landing-page/issues"
+  },
+  "homepage": "https://github.com/theparkinator56/landing-page#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1"
+  }
+}
