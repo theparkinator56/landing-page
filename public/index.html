@@ -20,45 +20,109 @@
 
   <body>
     <div
-      class="view"
-      style="background-image: url('assets/night-city.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;"
-    />
-    <div class="container">
-      <h1 class="white-text text-center animated fadeIn">
-        Late Night Marketing
-      </h1>
-      <div class="row animated fadeIn slow"></div>
-      <div class="animated fadeIn delay-1s">
-        <div class="white-text text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+      style="background-image: url('assets/night-city.jpg'); 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: center center;
+      "
+    >
+      <div class="navbar navbar-dark bg-transparent">
+        <a class="navbar-brand" href="#">
+          <img src="" width="30" height="30" alt="Logo goes here" />
+        </a>
+        <a class="nav-link ml-auto" href="#about">About</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+      <div class="container">
+        <div class="py-5 mb-5">
+          <h1 class="white-text text-center uppercase animated fadeIn">
+            Ston Ventures
+          </h1>
+
+          <h3 class="white-text text-center animated fadeIn">
+            Late Night Marketing
+          </h3>
+        </div>
+        <div class="py-5 my-5"></div>
+        <div class="py-5 my-5"></div>
+        <div class="py-5 my-5"></div>
+        <div class="animated fadeIn delay-1s">
+          <div class="white-text text-center" id="about">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </div>
         </div>
       </div>
     </div>
-    <div class="container animated fadeIn">
-      <form>
-        <div class="form-group">
-          <label for="emailInput">Email</label>
-          <input
-            type="email"
-            class="form-control"
-            id="emailInput"
-            placeholder="Ex. example@email.com"
-          />
+    <div class="py-2 my-2"></div>
+    <div class="container animated fadeIn pb-2" id="Contact">
+      <h2>Contact us</h2>
+      <div class="row">
+        <div class="col xs-6">
+          <form>
+            <div class="form-group">
+              <label for="nameInput">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nameInput"
+                placeholder="Ex. John Doe"
+              />
+            </div>
+          </form>
+          <form>
+            <div class="form-group">
+              <label for="emailInput">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="emailInput"
+                placeholder="Ex. example@email.com"
+              />
+            </div>
+          </form>
+          <form>
+            <div class="form-group">
+              <label for="messageInput">Message</label>
+              <textarea
+                type="text"
+                class="form-control"
+                id="messageInput"
+                placeholder="What would you like from us?"
+                rows="5"
+              ></textarea>
+            </div>
+          </form>
         </div>
-      </form>
-    </div>
+        <div class="col xs-6">
+          <p>
+            You can also reach us directly through any one of these methods:
+          </p>
+          <br />
+          <br />
 
+          <p>Marketing or Ventures:</p>
+          <p>blahblah@erics.email.com</p>
+          <p>123-456-7890</p>
+          <br />
+          <br />
+          <p>Web Development:</p>
+          <p>parker.call56@gmail.com</p>
+          <p>763-528-5943</p>
+        </div>
+      </div>
+    </div>
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="scripts.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
