@@ -1,0 +1,34 @@
+<div class="form-group">
+              <label for="nameInput">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nameInput"
+                placeholder="Ex. John Doe"
+              />
+            </div>
+          </form>
+          <form>
+            <div class="form-group">
+              <label for="emailInput">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="emailInput"
+                placeholder="Ex. example@email.com"
+                name="_replyTo"
+              />
+            </div>
+          </form>
+          <form>
+            <div class="form-group">
+              <label for="messageInput">Message</label>
+              <textarea
+                type="text"
+                class="form-control"
+                id="messageInput"
+                placeholder="What would you like from us?"
+                rows="5"
+                name="message"
+              ></textarea>
+            </div>
